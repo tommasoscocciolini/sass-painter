@@ -1,0 +1,24 @@
+@import '_navbar.scss';
+
+header{
+  background-color: black;
+  height: 100px;
+  .top-head{
+    height: 25px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    ul{
+      @include my-ul-nostyle;
+      justify-content: flex-end;
+      color: #ffff;
+
+      li i{
+        color: cyan;
+        
+      }
+    }
+
+  }
+
+}

@@ -1,0 +1,20 @@
+nav.navbar{  
+  ul{
+    @include my-ul-nostyle;
+    height: 75px;
+    align-items: flex-end;
+
+    li i {
+      font-size: .8em;
+      color: grey;
+    }
+    // li{
+    //   padding: 10px;
+    //   color: white;
+    //   i{
+    //     font-size: .8em;
+    //     color: grey;
+    //   }
+    // }
+  }
+}
