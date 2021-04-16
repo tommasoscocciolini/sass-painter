@@ -1,0 +1,13 @@
+main{
+  .container-tie .cards-container{
+    display: flex;
+    justify-content: space-between;
+    .cards{
+      width: calc(100% / 3 - 15px);
+
+      img{
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+div.jumbo{
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  .btns{
+    button{
+      @include my-square-button;
+    }
+  }
+  span.signature{
+    position: absolute;
+    top: 95%;
+    right: 3%;
+    color: #ffff;
+  }
+}

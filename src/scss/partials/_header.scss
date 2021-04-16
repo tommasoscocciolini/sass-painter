@@ -3,6 +3,7 @@
 header{
   background-color: black;
   height: 100px;
+  font-size: .9em;
   .top-head{
     height: 25px;
     display: flex;
@@ -10,12 +11,11 @@ header{
     justify-content: flex-end;
     ul{
       @include my-ul-nostyle;
+      width: 100%;
       justify-content: flex-end;
       color: #ffff;
-
       li i{
         color: cyan;
-        
       }
     }
 
