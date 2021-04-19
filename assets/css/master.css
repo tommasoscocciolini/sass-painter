@@ -4,13 +4,22 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: lightgrey;
+}
+
 .text-center {
   text-align: center;
 }
 
 .container-tie {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
+}
+
+.my-6 {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .my-4 {
@@ -18,8 +27,45 @@
   margin-bottom: 40px;
 }
 
+.my-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .highlighted {
-  color: lightblue;
+  color: cyan;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-white {
+  color: #ffff;
+}
+
+span.signature {
+  position: absolute;
+  top: 95%;
+  right: 3%;
+  color: #ffff;
+}
+
+img.w-100 {
+  width: 100%;
+}
+
+.padded-2 {
+  padding: 20px;
+}
+
+.padded-4 {
+  padding: 40px;
 }
 
 nav.navbar ul {
@@ -29,7 +75,7 @@ nav.navbar ul {
   align-items: flex-end;
 }
 nav.navbar ul li {
-  margin: 10px;
+  margin: 20px;
   color: white;
 }
 nav.navbar ul li i {
@@ -51,6 +97,11 @@ header .top-head {
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-end;
+  color: lightgrey;
+}
+header .top-head select {
+  margin-top: 20px;
+  height: 20px;
 }
 header .top-head ul {
   list-style: none;
@@ -60,7 +111,7 @@ header .top-head ul {
   color: #ffff;
 }
 header .top-head ul li {
-  margin: 10px;
+  margin: 20px;
   color: white;
 }
 header .top-head ul li i {
@@ -78,7 +129,7 @@ nav.navbar ul {
   align-items: flex-end;
 }
 nav.navbar ul li {
-  margin: 10px;
+  margin: 20px;
   color: white;
 }
 nav.navbar ul li i {
@@ -91,7 +142,8 @@ nav.navbar ul li i {
 }
 
 div.jumbo {
-  height: 500px;
+  font-size: 1.2em;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,13 +154,21 @@ div.jumbo {
 div.jumbo .btns button {
   padding: 10px 20px;
   border: 1px solid;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
-div.jumbo span.signature {
-  position: absolute;
-  top: 95%;
-  right: 3%;
+div.jumbo .btns .learn-btn {
+  background-color: black;
   color: #ffff;
+  border-color: black;
+  margin-right: 20px;
+}
+div.jumbo .btns .download-btn {
+  background-color: transparent;
+}
+div.jumbo span.offer-txt {
+  color: #D04AAE;
+  display: block;
+  font-style: italic;
 }
 
 main .container-tie .cards-container {
@@ -116,8 +176,92 @@ main .container-tie .cards-container {
   justify-content: space-between;
 }
 main .container-tie .cards-container .cards {
+  background-color: #ffff;
   width: calc(100% / 3 - 15px);
+  height: 350px;
 }
-main .container-tie .cards-container .cards img {
-  width: 100%;
+main .container-tie .cards-container .cards .card-text {
+  padding: 10px;
+  height: 100px;
+}
+main .container-tie .cards-container .cards .self-end {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+main .container-tie .grid-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .container-tie .grid-cards .card-50 {
+  width: 50%;
+  color: #ffff;
+  font-size: 1.2em;
+}
+main .container-tie .grid-cards .card-50 img {
+  height: 100%;
+}
+main .container-tie .grid-cards .card-50 button {
+  padding: 10px 20px;
+  border: 1px solid;
+  font-size: 1.1em;
+}
+
+footer .top-foot {
+  margin-bottom: 40px;
+}
+footer .container-tie {
+  display: flex;
+  flex-wrap: nowrap;
+}
+footer .container-tie ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  margin-left: 20px;
+}
+footer .container-tie ul li {
+  margin: 20px;
+  color: white;
+}
+footer .container-tie ul li i {
+  font-size: 0.8em;
+  color: grey;
+}
+footer .container-tie ul li {
+  margin: 10px;
+  color: black;
+}
+footer .container-tie ul li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 0.9em;
+}
+footer .foot-bar {
+  background-color: grey;
+  height: 100px;
+  font-size: 0.9em;
+}
+footer .foot-bar .container-tie {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .foot-bar .container-tie .logos-ul {
+  flex-direction: row;
+}
+footer .foot-bar .container-tie .right-foot {
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 0.8em;
+}
+footer .foot-bar .container-tie .right-foot ul {
+  flex-direction: row;
+}
+footer .foot-bar .container-tie .right-foot ul li {
+  margin: 5px;
+}
+footer .foot-bar .container-tie .right-foot ul li img {
+  height: 50px;
 }

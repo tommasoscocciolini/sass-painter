@@ -18,6 +18,7 @@
           <li><i class="fas fa-chat"></i>Chat</li>
           <li><i class="fas fa-user"></i>Sign In</li>
           <li><i class="fas fa-cart"></i>Cart</li>
+
         </ul>
         <select class="lang" name="">
           <option value="en" selected>English</option>
@@ -42,12 +43,12 @@
   <div class="jumbo" style="background-image: url('./src/img/bg-painter-home.jpg')">
     <div class="container-tie">
       <img width="200" src="./src/img/painter-2021-wm-black.png" alt="">
-      <h4>The most realistic painting experience you'll find hard to resist</h4>
-      <span>Limited-time offer</span>
-      <span>Get Signature Style Brush Pack Bundle FREE (worth $179.99)</span>
-      <div class="btns">
-        <button type="button" name="button">LEARN MORE</button>
-        <button type="button" name="button">DOWNLOAD TRIAL</button>
+      <h4 class="my-2">The most realistic painting experience you'll find hard to resist</h4>
+      <span class="offer-txt text-bold">Limited-time offer</span>
+      <span class="offer-txt">Get Signature Style Brush Pack Bundle FREE (worth $179.99)</span>
+      <div class="btns my-2">
+        <button type="button" name="button" class="learn-btn">LEARN MORE</button>
+        <button type="button" name="button" class="download-btn">DOWNLOAD TRIAL</button>
       </div>
     </div>
     <span class="signature">Stephen Hanson</span>
@@ -56,36 +57,118 @@
   <main>
     <div class="container-tie">
       <h2 class="text-center my-4">More painting possibilities</h2>
-      <div class="cards-container">
+      <div class="cards-container my-6">
         <div class="cards">
-          <img src="./src/img/ptr-module.jpg" alt="">
-          <div class="card-text">
-            <span class="highlighted">NEW</span><span>Painter Essential 8</span>
-            <p>The best affordable painting software for beginners</p>
+          <img src="./src/img/ptr-module.jpg" alt=""  class="w-100">
+          <div class="card-text my-2">
+            <span class="highlighted" style="margin-right: 5px;">NEW</span><span class="text-bold">Painter Essential 8</span>
+            <p class="my-2">The best affordable painting software for beginners</p>
           </div>
+          <span class="highlighted self-end">Learn More</span>
         </div>
         <div class="cards">
-          <img src="./src/img/particleshop-module.jpg" alt="">
-          <div class="card-text">
-            <span class="highlighted">NEW</span><span>Painter Essential 8</span>
-            <p>The best affordable painting software for beginners</p>
+          <img src="./src/img/particleshop-module.jpg" alt="" class="w-100">
+          <div class="card-text  my-2">
+            <span class="text-bold">ParticleShop</span>
+            <p class="my-2">Powerful Adobe Photoshop brush plugin poweered by Painter</p>
           </div>
+          <span class="highlighted self-end">Learn More</span>
         </div>
         <div class="cards">
-          <img src="./src/img/brush-pack-module.jpg" alt="">
-          <div class="card-text">
-            <span class="highlighted">NEW</span><span>Painter Essential 8</span>
-            <p>The best affordable painting software for beginners</p>
+          <img src="./src/img/brush-pack-module.jpg" alt=""  class="w-100">
+          <div class="card-text my-2">
+            <span class="text-bold">Brush Packs</span>
+            <p class="my-2">Diverse add-on packs to embellish photo composites, graphic designs and paintings</p>
           </div>
+          <span class="highlighted self-end">Learn More</span>
+        </div>
+      </div>
+
+      <div class="grid-cards my-4">
+        <div class="card-50 padded-4" style="background-color: purple;">
+          <h2>Wacom + Painter 2021</h2>
+          <p class="my-2">Satisfy all your digital painting needs with th epower and precision of these award-winning bundles</p>
+          <button type="button" name="button">LEARN MORE</button>
+        </div>
+        <div class="card-50" style="background-image: url('./src/img/wacom-painter.jpg')">
+          <img src="./src/img/wacom.png" alt="" class="w-100">
+        </div>
+        <div class="card-50">
+          <img src="./src/img/painter-master.jpg" alt="" class="w-100">
+
+        </div>
+        <div class="card-50 padded-4" style="background-color: grey;">
+          <h2>Painter master</h2>
+          <p class="my-2">Gain inspiration and knowledge from professional artists who have mastered Painter, and excel in their craft.</p>
+          <button type="button" name="button">LEARN MORE</button>
+        </div>
+        <div class="card-50 padded-4" style="background-color: cyan;">
+          <h2>Business & Education</h2>
+          <p class="my-2">Save money on our award-winning painting software thanks to afoordable and flexible licensing options.</p>
+          <button type="button" name="button">LEARN MORE</button>
+        </div>
+        <div class="card-50">
+          <img src="./src/img/business-education.jpg" alt="" class="w-100">
         </div>
       </div>
     </div>
   </main>
 
   <footer>
-    <div class="container-tie">
+    <div class="container-tie top-foot">
+      <ul>
+				<li class="text-bold">Products</li>
+				<li><a href="#">Corel Painter</a></li>
+				<li><a href="#">ParticleShop</a></li>
+				<li><a href="#">Painter Essentials</a></li>
+				<li><a href="#">Special Offers</a></li>
+				<li><a href="#">Free Trials</a></li>
+				<li><a href="#">All products</a></li>
+			</ul>
+			<ul>
+				<li class="text-bold">Quick Links</li>
+				<li><a href="#">Licensing</a></li>
+				<li><a href="#">Tutorials & Tips</a></li>
+				<li><a href="#">Webinars</a></li>
+				<li><a href="#">The Painter Factory</a></li>
+				<li><a href="#">Discovery Center</a></li>
+				<li><a href="#">Beta Programs</a></li>
+			</ul>
+			<ul>
+				<li class="text-bold">Support</li>
+				<li><a href="#">Register your product</a></li>
+				<li><a href="#">Patches & Updates</a></li>
+				<li><a href="#">Knowledgebase</a></li>
+				<li><a href="#">Uninstall instructions</a></li>
+				<li><a href="#">Contact us</a></li>
+			</ul>
+			<ul>
+				<li class="text-bold">About Corel</li>
+				<li><a href="#">Company informations</a></li>
+				<li><a href="#">Newsroom</a></li>
+				<li><a href="#">Careers</a></li>
+				<li><a href="#">Partner Program</a></li>
+				<li><a href="#">Legal Information</a></li>
+				<li><a href="#">EULA</a></li>
+			</ul>
 
-
+    </div>
+    <div class="foot-bar">
+      <div class="container-tie">
+        <ul class="logos-ul">
+          <li><img src="./src/img/corelAdvantage.png" alt=""> </li>
+          <li><img src="./src/img/logo-bbb.png" alt=""> </li>
+          <li><img src="./src/img/101.png" alt=""> </li>
+        </ul>
+        <div class="right-foot">
+          <ul>
+            <li>Terms of use</li>
+            <li>Privacy</li>
+            <li>Cookies</li>
+          </ul>
+          <span>Copyright 2021 Corel Corporation. All right reserved.</span>
+        </div>
+      </div>
     </div>
   </footer>
 

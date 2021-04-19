@@ -1,5 +1,6 @@
 div.jumbo{
-  height: 500px;
+  font-size: 1.2em;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,11 +12,20 @@ div.jumbo{
     button{
       @include my-square-button;
     }
+    .learn-btn{
+      background-color: black;
+      color: #ffff;
+      border-color: black;
+      margin-right: 20px;
+    }
+    .download-btn{
+      background-color: transparent;
+    }
   }
-  span.signature{
-    position: absolute;
-    top: 95%;
-    right: 3%;
-    color: #ffff;
+
+  span.offer-txt{
+    color: $offer-txt;
+    display: block;
+    font-style: italic;
   }
 }

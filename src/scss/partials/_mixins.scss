@@ -8,7 +8,7 @@
   list-style: none;
   display: flex;
   li{
-    margin:  10px;
+    margin:  20px;
     color: white;
     i{
       font-size: .8em;
@@ -20,5 +20,10 @@
 @mixin my-square-button{
   padding: 10px 20px;
   border: 1px solid;
-  font-size: 1.2em;
+  font-size: 1.1em;
+}
+
+@mixin txt-italic-bold{
+  font-style: italic;
+  font-weight: bold;
 }

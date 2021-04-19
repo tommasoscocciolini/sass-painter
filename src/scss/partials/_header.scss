@@ -9,6 +9,11 @@ header{
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-end;
+    color: lightgrey;
+    select{
+      margin-top: 20px;
+      height: 20px;
+    }
     ul{
       @include my-ul-nostyle;
       width: 100%;

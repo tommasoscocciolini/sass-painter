@@ -3,10 +3,31 @@ main{
     display: flex;
     justify-content: space-between;
     .cards{
+      background-color:#ffff;
       width: calc(100% / 3 - 15px);
-
+      height: 350px;
+      .card-text{
+        padding: 10px;
+        height: 100px;
+      }
+      .self-end{
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .container-tie .grid-cards{
+    display: flex;
+    flex-wrap: wrap;
+    .card-50{
+      width: 50%;
+      color: #ffff;
+      font-size: 1.2em;
       img{
-        width: 100%;
+        height: 100%;
+      }
+      button{
+        @include my-square-button;
       }
     }
   }
